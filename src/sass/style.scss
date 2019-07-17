@@ -1,0 +1,56 @@
+@import "base/variables";
+@import "base/mixins";
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+// Стили кнопки вверх
+.scrollToTop{
+	position: fixed;
+	bottom: 60px;
+	right: 25px;
+	border-radius: 4px;
+	display: none;
+	font-size: 32px;
+	height: 50px;
+	width: 50px;
+	z-index: 1001;
+	color: #fff;
+	transition: all .5s;
+	background-color: #2798b9;
+	border: 0;
+  cursor: pointer;
+  &:hover {
+    background-color: #fff;
+    text-decoration: none;
+    outline: none;
+    color: #2798b9;
+    border: 1px solid #2798b9;
+  }
+}
+//
+
+
+@import "blocks/promo";
+@import "blocks/intensive";
+@import "blocks/button";
+@import "blocks/optimization";
+@import "blocks/learning";
+@import "blocks/present";
+@import "blocks/vebinar";
+@import "blocks/footer";
+
+@import "blocks/forms";
+@import "blocks/modal";
+
+
+
+@import "base/media";

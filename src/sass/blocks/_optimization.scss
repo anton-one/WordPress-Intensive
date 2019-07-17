@@ -1,0 +1,39 @@
+.optimization {
+	min-height: 550px;
+	padding: 109px 0 23px;
+
+	.container {
+		position: relative;
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		&-title {
+			color: #299cbd;
+			font-size: 30px;
+			font-weight: 900;
+			line-height: 30px;
+			text-transform: uppercase;
+			margin-bottom: 25px;
+		}
+		&-text {
+			max-width: 750px;
+			color: #4a4a4a;
+			font-size: 17px;
+			line-height: 27px;
+			font-weight: 300;
+
+			span {
+				font-weight: 700;
+			}
+		}
+	}
+	&__img {
+		position: absolute;
+		bottom: -25px;
+		left: -240px;
+		z-index: -1;
+	}
+}

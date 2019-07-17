@@ -1,0 +1,50 @@
+.learning {
+	background: url(../img/learning/learning.jpg) center (center/cover) no-repeat;
+	padding: 86px 0 79px;
+	min-height: 447px;
+
+	&__title {
+		color: #efefef;
+		font-size: 30px;
+		font-weight: 400;
+		line-height: 30px;
+		text-transform: uppercase;
+		margin-bottom: 23px;
+		text-align: center;
+	}
+	&__line {
+		width: 217px;
+		height: 4px;
+		background-color: #f9bf3b;
+		margin: 0 auto;
+	}
+	&__blocks {
+		margin-top: 41px;
+		display: flex;
+		justify-content: space-between;
+		/* flex-wrap: wrap; */
+	}
+	&__block {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 204px;
+		.round {
+			width: 115px;
+			height: 115px;
+			background-color: #b4e2ff;
+			border-radius: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		p {
+			color: #efefef;
+			font-size: 17px;
+			font-weight: 300;
+			line-height: 20px;
+			margin-top: 26px;
+			text-align: center;
+		}
+	}
+}

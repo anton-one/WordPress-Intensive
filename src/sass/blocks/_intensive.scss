@@ -1,0 +1,44 @@
+.intensive {
+	background-color: #efefef;
+	padding: 85px 0 75px;
+	text-align: center;
+	&__title {
+		color: #252525;
+		font-size: 30px;
+		font-weight: 400;
+		line-height: 30px;
+		text-transform: uppercase;
+		margin-bottom: 0;
+	}
+	&__line {
+		margin: 18px auto;
+		width: 217px;
+		height: 4px;
+		background-color: #f9bf3b;
+	}
+	&__descr {
+		color: #4a4a4a;
+		font-size: 23px;
+		font-weight: 400;
+		line-height: 23px;
+		margin-bottom: 0;
+	}
+	&__blocks {
+		margin-top: 45px;
+		display: flex;
+		 flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	&__block {
+		display: flex;
+		flex-direction: column;
+		flex-basis: 18.4%;
+		&-text {
+			color: #4a4a4a;
+			font-size: 15px;
+			font-weight: 300;
+			line-height: 21px;
+			margin-top: 33px;
+		}
+	}
+}

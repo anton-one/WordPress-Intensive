@@ -1,0 +1,20 @@
+.present {
+	background-color: #efefef;
+	padding: 87px 0;
+	&__img {
+		margin: 0 auto;
+		display: block;
+	}
+	&__descr {
+		text-align: center;
+		margin: 42px 0 52px;
+		color: #252525;
+		font-size: 30px;
+		font-weight: 400;
+		line-height: 43px;
+	}
+	&__btn {
+		margin: 0 auto;
+		display: block;
+	}
+}

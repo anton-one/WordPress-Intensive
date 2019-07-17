@@ -1,0 +1,263 @@
+
+
+@media (max-width: 1280px) {
+	.intensive {
+		&__block {
+			margin: 15px;
+		}
+	}
+}
+
+
+@media (max-width: 1024px) {
+	.promo {
+		&__title  {
+			&::before {
+				display: none;
+			}
+			&::after {
+				display: none;
+			}
+		}
+		&__text {
+			max-width: 860px;
+			margin: 20px auto 60px;
+		}
+	}
+	.optimization {
+		padding: 60px 0 20px;
+		&__content {
+			&-title {
+				margin: 0 auto 25px;
+			}
+			&-text {
+				max-width: 550px;
+			}
+		}
+	}
+}
+@media (max-width: 890px) {
+	.optimization {
+		padding: 30px 0;
+		img {
+			display: none;
+		}
+		&__content {
+			&-title {
+				text-align: center;
+			}
+			&-text {
+				margin: 0 auto;
+			}
+		}
+	}
+	.learning {
+		&__blocks  {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.promo {
+		min-height: 0;
+		&__title {
+			font-size: 30px;
+			line-height: 30px;
+			span {
+				font-size: 65px;
+    			line-height: 85px;
+			}
+		}
+		&__descr {
+			margin-top: 45px;
+		}
+		&__text {
+			br {
+				display: none;
+			}
+		}
+	}
+	.intensive {
+		padding: 35px 0;
+		&__blocks {
+			margin-top: 35px;
+		}
+		&__block {
+			flex-basis: 50%;
+			&-text {
+				margin-top: 18px;
+			}
+		}
+	}
+	.learning {
+		padding: 60px 0;
+	}
+	.present {
+		padding: 60px 0;
+		&__descr {
+			font-size: 26px;
+			line-height: 36px;
+			margin: 30px 0;
+		}
+	}
+	.vebinar {
+		padding: 60px 0;
+		&__title {
+			margin-top: 25px;
+		}
+		&__date {
+			font-size: 25px;
+			line-height: 25px;
+			margin-top: 10px;
+		}
+		&__descr{
+			font-size: 21px;
+			line-height: 21px;
+			margin-top: 10px;
+		}
+	}
+	footer {
+		padding: 30px 0;
+		min-height: 110px;
+		a {
+			font-size: 12px;
+		}
+	}
+	.modal {
+		width: 350px;
+		padding: 40px 0;
+		&__subtitle {
+			margin-top: 10px;
+			font-size: 14px;
+    		line-height: 14px;
+		}
+		&__descr {
+			font-size: 12px;
+			padding: 0 10px;
+		}
+		form {
+			width: 200px;
+			margin: 25px auto 0;
+			input {
+				margin-bottom: 10px;
+			}
+			button {
+				height: 50px;
+				font-size: 16px;
+			}
+		}
+	}
+}
+@media (max-width: 620px) {
+	.intensive {
+		&__block {
+			img {
+				width: 250px;
+   		 		margin: 0 auto;
+			}
+		}
+	}
+	.modal {
+		width: 250px;
+
+		form {
+			width: 200px;
+			margin: 25px auto 0;
+		}
+	}
+}
+
+@media (max-width: 425px) {
+	.button {
+		width: 270px;
+		height: 70px;
+		font-size: 20px;
+	}
+	.promo {
+		padding: 30px 0 40px;
+		&__title {
+			margin-top: 26px;
+			span {
+				font-size: 50px;
+				line-height: 60px;
+			}
+		}
+		&__text {
+			max-width: 390px;
+			margin: 20px auto 35px;
+		}
+		&__descr {
+			margin-top: 30px;
+		}
+	}
+	.optimization {
+		&__content {
+			&-title {
+				font-size: 24px;
+				line-height: 24px;
+			}
+			&-text {
+				line-height: 20px;
+			}
+		}
+	}
+	.present {
+		padding: 30px 0;
+		&__descr {
+			font-size: 18px;
+    		line-height: 24px;
+		}
+	}
+	.vebinar {
+		padding: 30px 0;
+		img {
+			width: 250px;
+		}
+		&__title {
+			font-size: 24px;
+			line-height: 24px;
+		}
+		&__date {
+			font-size: 21px;
+    		line-height: 21px;
+		}
+		&__descr{
+			font-size: 14px;
+    		line-height: 16px;
+		}
+
+	}
+	footer {
+		padding: 15px 0;
+		min-height: 80px;
+		a {
+			font-size: 10px;
+		}
+	}
+}
+
+
+@media (max-width: 320px) {
+	.promo {
+		&__title {
+			font-size: 22px;
+			line-height: 27px;
+			span {
+				font-size: 35px;
+   				line-height: 36px;
+			}
+		}
+		&__text {
+			font-size: 18px;
+			line-height: 25px;
+			margin: 20px auto 20px;
+		}
+		&__descr {
+			margin-top: 25px;
+			font-size: 14px;
+			font-weight: 400;
+		}
+	}
+}

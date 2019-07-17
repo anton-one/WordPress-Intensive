@@ -1,0 +1,19 @@
+footer {
+	min-height: 166px;
+    background-color: #1a1a1a;
+	padding: 61px 0 69px 0;
+	text-align: center;
+	a {
+		color: #888888;
+		font-size: 15px;
+		font-weight: 300;
+		line-height: 21px;
+		text-decoration: underline;
+		&:hover {
+			color: #706c6c;
+		}
+	}
+	.link__contact {
+		text-decoration: none;
+	}
+}
