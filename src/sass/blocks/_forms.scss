@@ -3,6 +3,7 @@
 	width: 300px;
 	flex-direction: column;
 	margin-top: 36px;
+	margin: 36px auto 0;
 
 	input {
 		height: 50px;
@@ -18,7 +19,8 @@
 		}
 	}
 	.button__submit {
-		width: 100%;
+		width: 90%;
+		margin: 0 auto;
 	}
 
 	&_mt25 {
