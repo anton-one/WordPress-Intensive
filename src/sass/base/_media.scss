@@ -35,6 +35,11 @@
 			}
 		}
 	}
+	.learning {
+		&__block {
+			margin: 15px;
+		}
+	}
 }
 @media (max-width: 890px) {
 	.optimization {
@@ -85,7 +90,7 @@
 			margin-top: 35px;
 		}
 		&__block {
-			flex-basis: 50%;
+			flex-basis: 70%;
 			&-text {
 				margin-top: 18px;
 			}
@@ -93,6 +98,11 @@
 	}
 	.learning {
 		padding: 60px 0;
+		.learning {
+			&__block {
+				flex-basis: 40%;
+			}
+		}
 	}
 	.present {
 		padding: 60px 0;
@@ -162,6 +172,16 @@
 	.modal {
 		width: 300px;
 	}
+}
+@media (max-width: 490px) {
+	.learning {
+		.learning {
+			&__block {
+				flex-basis: 50%;
+			}
+		}
+	}
+
 }
 
 @media (max-width: 425px) {
